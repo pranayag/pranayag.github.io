@@ -5,7 +5,14 @@ body{
     display: block;
     font-size: 170%;
     color: black;
-    padding: 2.5rem 4rem;
+    margin: 2.5rem 4rem;
+}
+
+.active {
+    background-image: linear-gradient(#6AD1E6, #364FB6);
+    background-size: 85% 11px;
+    background-position: 8px 27px;
+    background-repeat: no-repeat;
 }
 
 .home {
