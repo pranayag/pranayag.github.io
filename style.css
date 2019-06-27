@@ -1,13 +1,16 @@
+body{
+    font-family: Montserrat;
+}
 .nav-link {
     display: block;
-    font-size: 200%;
+    font-size: 170%;
     color: black;
     padding: 2.5rem 4rem;
 }
 
 .home {
     width: 40%;
-    margin-left: 11%;
+    margin-left:12%;
     top: 40%;
     position: absolute;
 }
@@ -17,5 +20,37 @@
 }
 
 .my-detail {
-    font-size: 185%;
+    font-size: 170%;
+}
+
+.image-main {
+    margin-left: 60%;
+    top: 25%;
+    position: absolute;
+}
+.Large-group{
+    align-content: center;
+}
+.Ellipse-large {
+    top: 55%;
+    margin-left: 55%;
+    position: absolute;
+}
+.White-circle-large {
+    top: 53.75%;
+    margin-left: 55%;
+    position: absolute;
+}
+.Small-group{
+    align-content: center;
+}
+.Ellipse-small {
+    top: 30%;
+    margin-left: 83%;
+    position: absolute;
+}
+.White-circle-small {
+    top: 28.65%;
+    margin-left: 82.5%;
+    position: absolute;
 }
