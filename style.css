@@ -9,9 +9,9 @@ body{
 }
 
 .active {
-    background-image: linear-gradient(#6AD1E6, #364FB6);
-    background-size: 85% 11px;
-    background-position: 8px 27px;
+    background-image: linear-gradient(rgba(106, 209, 230, 0.3), rgba(54, 79, 182, 0.3));
+    background-size: 73% 11px;
+    background-position: 13px 33px;
     background-repeat: no-repeat;
 }
 
@@ -60,4 +60,18 @@ body{
     top: 28.65%;
     margin-left: 82.5%;
     position: absolute;
+}
+
+.section {
+    margin-top: 35%;
+}
+
+.section-name {
+    display: inline;
+    font-size: 160%;
+}
+
+.line {
+    width: 40%;
+    margin: 0 3%;
 }
