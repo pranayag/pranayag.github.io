@@ -1,11 +1,28 @@
 body{
     font-family: Montserrat;
 }
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
 .nav-link {
     display: block;
     font-size: 170%;
     color: black;
     margin: 2.5rem 4rem;
+    text-decoration: none;
 }
 
 .active {
@@ -18,8 +35,8 @@ body{
 .home {
     width: 40%;
     margin-left:12%;
-    top: 40%;
-    position: absolute;
+    margin-top: 7rem;
+    display: inline-block;
 }
 
 .name {
@@ -30,40 +47,12 @@ body{
     font-size: 170%;
 }
 
-.image-main {
-    margin-left: 60%;
-    top: 25%;
-    position: absolute;
-}
-.Large-group{
-    align-content: center;
-}
-.Ellipse-large {
-    top: 55%;
-    margin-left: 55%;
-    position: absolute;
-}
-.White-circle-large {
-    top: 53.75%;
-    margin-left: 55%;
-    position: absolute;
-}
-.Small-group{
-    align-content: center;
-}
-.Ellipse-small {
-    top: 30%;
-    margin-left: 83%;
-    position: absolute;
-}
-.White-circle-small {
-    top: 28.65%;
-    margin-left: 82.5%;
-    position: absolute;
+.image {
+    display: inline-block;
 }
 
 .section {
-    margin-top: 35%;
+    margin-top: 15%;
 }
 
 .section-name {
@@ -72,6 +61,6 @@ body{
 }
 
 .line {
-    width: 40%;
+    width: 37%;
     margin: 0 3%;
 }
