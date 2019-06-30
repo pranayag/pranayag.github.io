@@ -89,3 +89,19 @@ body{
     width: 37%;
     margin: 0 3%;
 }
+
+@media (max-width: 1117px){
+    .description {
+        display: flex;
+        flex-flow: column;
+    }
+    .home {
+        order: 2;
+        margin: auto;
+    }
+    .image {
+        order: 1;
+        width: 450px;
+        margin: auto;
+    }
+}
