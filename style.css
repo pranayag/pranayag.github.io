@@ -34,7 +34,7 @@ body{
 
 .home {
     width: 40%;
-    margin-left:10%;
+    margin-left:15%;
     margin-top: 5rem;
     float: left;
 }
@@ -50,6 +50,11 @@ body{
 .image {
     display: inline-block;
     position: relative;
+}
+
+.image-main img {
+    width: 450px;
+    height: 450px;
 }
 
 .Ellipse-large {
@@ -103,5 +108,37 @@ body{
         order: 1;
         width: 450px;
         margin: auto;
+    }
+    .image-main img {
+        width: 400px;
+        height:400px;
+    }
+    .Ellipse-large {
+        top: 54%;
+        right: 80%;
+    }
+    .Ellipse-large img {
+        width: 150px;
+    }
+    .White-circle-large img {
+        width: 200px;
+    }
+    .White-circle-large {
+        top: 48%;
+        right: 75%;
+    }
+    .Ellipse-small {
+        top: 13%;
+        left: 79%;
+    }
+    .Ellipse-small img{
+        width: 85%;
+    }
+    .White-circle-small {
+        left: 75%;
+        top: 10%;
+    }
+    .White-circle-small img{
+        width: 110px;
     }
 }
