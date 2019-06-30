@@ -34,9 +34,9 @@ body{
 
 .home {
     width: 40%;
-    margin-left:12%;
-    margin-top: 7rem;
-    display: inline-block;
+    margin-left:10%;
+    margin-top: 5rem;
+    float: left;
 }
 
 .name {
@@ -49,10 +49,35 @@ body{
 
 .image {
     display: inline-block;
+    position: relative;
+}
+
+.Ellipse-large {
+    position: absolute;
+    top: 47%;
+    right: 78%;
+}
+
+.White-circle-large {
+    position: absolute;
+    top: 41%;
+    right: 68%;
+}
+
+.Ellipse-small {
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
+
+.White-circle-small {
+    left: 81%;
+    position: absolute;
+    top: 6%;
 }
 
 .section {
-    margin-top: 15%;
+    margin-top: 4%;
 }
 
 .section-name {
