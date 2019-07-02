@@ -103,10 +103,11 @@ body{
     .home {
         order: 2;
         margin: auto;
+        width: 35%;
     }
     .image {
         order: 1;
-        width: 450px;
+        width: 400px;
         margin: auto;
     }
     .image-main img {
@@ -128,15 +129,15 @@ body{
         right: 75%;
     }
     .Ellipse-small {
-        top: 13%;
-        left: 79%;
+        top: 9%;
+        left: 87%;
     }
     .Ellipse-small img{
-        width: 85%;
+        width: 85px;
     }
     .White-circle-small {
-        left: 75%;
-        top: 10%;
+        left: 83%;
+        top: 6%;
     }
     .White-circle-small img{
         width: 110px;
