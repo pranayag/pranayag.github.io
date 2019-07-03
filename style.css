@@ -33,8 +33,9 @@ body{
 }
 
 .home {
-    width: 47%;
-    margin-left:16%;
+    width: 40%;
+    margin-left:15%;
+    margin-top: 5rem;
     float: left;
 }
 
@@ -52,48 +53,32 @@ body{
 }
 
 .image-main img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
 .Ellipse-large {
     position: absolute;
-    top: 54%;
-    right: 81%;
-}
-
-.Ellipse-large img{
-    width: 110px;
+    top: 47%;
+    right: 78%;
 }
 
 .White-circle-large {
     position: absolute;
-    top: 48%;
-    right: 73%;
-}
-
-.White-circle-large img{
-    width: 145px;
+    top: 41%;
+    right: 68%;
 }
 
 .Ellipse-small {
     position: absolute;
-    top: 17%;
-    left: 86%;
-}
-
-.Ellipse-small img{
-    width: 83px;
+    top: 10%;
+    left: 85%;
 }
 
 .White-circle-small {
     left: 81%;
     position: absolute;
-    top: 14%;
-}
-
-.White-circle-small img{
-    width: 100px;
+    top: 6%;
 }
 
 .section {
@@ -118,11 +103,10 @@ body{
     .home {
         order: 2;
         margin: auto;
-        width: 35%;
     }
     .image {
         order: 1;
-        width: 400px;
+        width: 450px;
         margin: auto;
     }
     .image-main img {
@@ -144,15 +128,15 @@ body{
         right: 75%;
     }
     .Ellipse-small {
-        top: 9%;
-        left: 87%;
+        top: 13%;
+        left: 79%;
     }
     .Ellipse-small img{
-        width: 85px;
+        width: 85%;
     }
     .White-circle-small {
-        left: 83%;
-        top: 6%;
+        left: 75%;
+        top: 10%;
     }
     .White-circle-small img{
         width: 110px;

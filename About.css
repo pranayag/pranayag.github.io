@@ -1,0 +1,202 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--web-view-ids: About;
+}
+#About * {
+	margin: 0;
+	padding: 0;
+}
+.About_Class {
+	position: absolute;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	left: 50%;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-enable-deep-linking: true;
+}
+.Intersection_5_Class {
+	opacity: 1;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	fill: url(#Intersection_5_A1_BooleanGroup_2_pattern);
+}
+.Intersection_5 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 561.368px;
+	left: 215.569px;
+	width: 532.796px;
+	height: 956.632px;
+}
+.agarwalpranay76161_gmail_com__Class {
+	opacity: 1;
+	position: absolute;
+	left: 215px;
+	top: 1884px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 746px;
+	white-space: nowrap;
+	line-height: 55px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+.Let_s_Connect_Class {
+	opacity: 1;
+	position: absolute;
+	left: 216px;
+	top: 1750px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 532px;
+	white-space: nowrap;
+	line-height: 90px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 77px;
+	color: rgba(0,0,0,1);
+}
+.Rectangle_14_Class {
+	opacity: 1;
+	fill: transparent;
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	height: 55px;
+	left: 1643px;
+	top: 1884px;
+}
+.Rectangle_15_Class {
+	opacity: 1;
+	fill: transparent;
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	height: 55px;
+	left: 1556px;
+	top: 1884px;
+}
+.Rectangle_16_Class {
+	opacity: 1;
+	fill: transparent;
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	height: 55px;
+	left: 1469px;
+	top: 1884px;
+}
+.Group_11_Class {
+	opacity: 1;
+	position: absolute;
+	width: 810px;
+	height: 945px;
+	left: 890px;
+	top: 555px;
+	overflow: visible;
+}
+.I_m_Pranay__currently_a__3rd_y_Class {
+	opacity: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 811px;
+	height: 945px;
+	line-height: 59px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(0,0,0,1);
+}
+.Rectangle_17_Class {
+	opacity: 0.3;
+	fill: url(#LinearGradientFill1);
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	height: 19px;
+	left: 83px;
+	top: 35px;
+}
+.Rectangle_19_Class {
+	opacity: 0.3;
+	fill: url(#LinearGradientFill2);
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 340px;
+	height: 22px;
+	left: 23px;
+	top: 210px;
+}
+.Rectangle_18_Class {
+	opacity: 0.3;
+	fill: url(#LinearGradientFill3);
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 429px;
+	height: 19px;
+	left: 0px;
+	top: 504px;
+}
