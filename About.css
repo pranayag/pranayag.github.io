@@ -40,7 +40,8 @@ body{
 }
 
 .about {
-	margin: 15rem 5rem 5rem;
+    margin: 15rem 5rem 5rem;
+    animation: fadeInAnimation ease 0.75s forwards;
 }
 
 .image{
@@ -61,3 +62,14 @@ body{
     margin-top: 10rem;
     margin-left: 3rem;
 }
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+        transform: translate(0px, 10px);
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translate(0px, 0px);
+     } 
+} 
