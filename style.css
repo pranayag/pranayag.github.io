@@ -59,7 +59,7 @@ body{
 .image {
     display: inline-block;
     position: relative;
-    margin-left: 4rem;
+    margin-left: 8rem;
 }
 
 .image-main img {
@@ -108,7 +108,7 @@ body{
 }
 
 .section {
-    margin-top: 4%;
+    margin-top: 12%;
 }
 
 .section-name {
