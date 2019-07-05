@@ -15,6 +15,12 @@ body{
 .justify-content-center {
     -ms-flex-pack: center!important;
     justify-content: center!important;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+    margin-top: 0;
 }
 
 .nav-link {
@@ -32,10 +38,13 @@ body{
     background-repeat: no-repeat;
 }
 
+.description {
+    margin-top: 9rem;
+}
+
 .home {
     width: 40%;
     margin-left:15%;
-    margin-top: 5rem;
     float: left;
 }
 
