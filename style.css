@@ -39,7 +39,7 @@ body{
 }
 
 .description {
-    margin-top: 9rem;
+    margin-top: 13rem;
 }
 
 .home {
@@ -59,35 +59,52 @@ body{
 .image {
     display: inline-block;
     position: relative;
+    margin-left: 4rem;
 }
 
 .image-main img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 .Ellipse-large {
     position: absolute;
-    top: 47%;
-    right: 78%;
+    top: 58%;
+    right: 81%;
+}
+
+.Ellipse-large img{
+    width: 100px;
 }
 
 .White-circle-large {
     position: absolute;
-    top: 41%;
-    right: 68%;
+    top: 54%;
+    right: 77%;
+}
+
+.White-circle-large img {
+    width: 125px;
 }
 
 .Ellipse-small {
     position: absolute;
-    top: 10%;
-    left: 85%;
+    top: 23%;
+    left: 89%;
+}
+
+.Ellipse-small img {
+    width: 50px;
 }
 
 .White-circle-small {
-    left: 81%;
+    left: 85%;
     position: absolute;
-    top: 6%;
+    top: 19%;
+}
+
+.White-circle-small img {
+    width: 75px;
 }
 
 .section {
