@@ -1,5 +1,41 @@
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+    margin-top: 0;
+}
+
+.nav-link {
+    display: block;
+    font-size: 170%;
+    color: black;
+    margin: 2.5rem 4rem;
+    text-decoration: none;
+}
+
+.active {
+    background-image: linear-gradient(rgba(106, 209, 230, 0.3), rgba(54, 79, 182, 0.3));
+    background-size: 73% 11px;
+    background-position: 13px 33px;
+    background-repeat: no-repeat;
+}
+
 .about {
-	margin: 5rem;
+	margin: 10rem 5rem 5rem;
 }
 
 .image{
