@@ -40,13 +40,14 @@ body{
 }
 
 .description {
-    margin-top: 14rem;
+    margin-top: 9rem;
     animation: fadeInAnimation ease 1s forwards; 
 }
 
 .home {
     width: 40%;
-    margin-left:15%;
+    margin-top:5rem;
+    margin-left:17%;
     float: left;
 }
 
@@ -64,12 +65,12 @@ body{
 .image {
     display: inline-block;
     position: relative;
-    margin-left: 8rem;
+    margin-left:7rem;
+    margin-top: 1.5rem;
 }
 
 .image-main img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
 }
 
 .Ellipse-large {
@@ -116,7 +117,7 @@ body{
 }
 
 .section {
-    margin-top: 10%;
+    margin-top: 6%;
     text-align: center;
     animation: fadeInAnimation ease 1s forwards; 
 }
