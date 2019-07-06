@@ -41,7 +41,7 @@ body{
 
 .description {
     margin-top: 14rem;
-    animation: fadeInAnimation ease 0.75s forwards; 
+    animation: fadeInAnimation ease 1s forwards; 
 }
 
 .home {
@@ -86,10 +86,12 @@ body{
     position: absolute;
     top: 54%;
     right: 77%;
+    
 }
 
 .White-circle-large img {
     width: 125px;
+    animation: rotation 7s infinite linear;
 }
 
 .Ellipse-small {
@@ -110,11 +112,13 @@ body{
 
 .White-circle-small img {
     width: 75px;
+    animation: rotation 7s infinite linear;
 }
 
 .section {
     margin-top: 10%;
-    animation: fadeInAnimation ease 0.75s forwards; 
+    text-align: center;
+    animation: fadeInAnimation ease 1s forwards; 
 }
 
 .section-name {
@@ -126,6 +130,16 @@ body{
 .line {
     width: 37%;
     margin: 0 3%;
+}
+
+
+.project-1 {
+    margin-top:3%;
+    display: inline-block;
+}
+
+.project-1:hover {
+    box-shadow: 1px;
 }
 
 @media (max-width: 1117px){
@@ -186,3 +200,12 @@ body{
         transform: translate(0px, 0px);
      } 
 } 
+
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
