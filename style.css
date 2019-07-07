@@ -33,10 +33,7 @@ body{
 }
 
 .active {
-    background-image: linear-gradient(rgba(106, 209, 230, 0.3), rgba(54, 79, 182, 0.3));
-    background-size: 73% 11px;
-    background-position: 13px 33px;
-    background-repeat: no-repeat;
+    text-decoration: stroke;
 }
 
 .description {
@@ -63,6 +60,29 @@ body{
     line-height: 1.5;
 }
 
+.UX {
+    text-align: center;
+    position:relative;
+}
+
+.rectangle {
+    position: absolute;
+    display: inline-block;
+    width: 175px;
+    height: 35%;
+    bottom:5px;
+    left:-1px;
+    /* left:18.70%;
+    top:65%; */
+    
+}
+/*.rectangle {
+    position: absolute;
+    top:100px;
+    width: 175px;
+    left:280px;
+}*/
+
 .image {
     display: inline-block;
     position: relative;
@@ -86,47 +106,10 @@ body{
     animation: shine 4s ease-in-out infinite;
   }
 
-.Ellipse-large {
+.shadow {
+    z-index: 4;
     position: absolute;
-    top: 58%;
-    right: 81%;
-}
-
-.Ellipse-large img{
-    width: 100px;
-}
-
-.White-circle-large {
-    position: absolute;
-    top: 54%;
-    right: 77%;
-    
-}
-
-.White-circle-large img {
-    width: 125px;
-    animation: rotation 7s infinite linear;
-}
-
-.Ellipse-small {
-    position: absolute;
-    top: 23%;
-    left: 89%;
-}
-
-.Ellipse-small img {
-    width: 50px;
-}
-
-.White-circle-small {
-    left: 85%;
-    position: absolute;
-    top: 19%;
-}
-
-.White-circle-small img {
-    width: 75px;
-    animation: rotation 7s infinite linear;
+    left:0px;
 }
 
 .section {
@@ -174,34 +157,7 @@ body{
         width: 400px;
         height:400px;
     }
-    .Ellipse-large {
-        top: 54%;
-        right: 80%;
-    }
-    .Ellipse-large img {
-        width: 150px;
-    }
-    .White-circle-large img {
-        width: 200px;
-    }
-    .White-circle-large {
-        top: 48%;
-        right: 75%;
-    }
-    .Ellipse-small {
-        top: 13%;
-        left: 79%;
-    }
-    .Ellipse-small img{
-        width: 85%;
-    }
-    .White-circle-small {
-        left: 75%;
-        top: 10%;
-    }
-    .White-circle-small img{
-        width: 110px;
-    }
+   
 }
 
 @keyframes fadeInAnimation { 
@@ -214,15 +170,6 @@ body{
         transform: translate(0px, 0px);
      } 
 } 
-
-@keyframes rotation {
-    from {
-            transform: rotate(0deg);
-    }
-    to {
-            transform: rotate(359deg);
-    }
-}
 
 @keyframes shine {
     from {
