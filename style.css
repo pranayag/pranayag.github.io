@@ -40,7 +40,7 @@ body{
 }
 
 .description {
-    margin-top: 9rem;
+    margin-top: 10rem;
     animation: fadeInAnimation ease 1s forwards; 
 }
 
@@ -49,6 +49,7 @@ body{
     margin-top:5rem;
     margin-left:17%;
     float: left;
+    z-index: 3;
 }
 
 .name {
@@ -72,6 +73,18 @@ body{
 .image-main img {
     width: 400px;
 }
+
+.ill {
+    z-index: 1;
+}
+
+.shine {
+    z-index: 2;
+    position: absolute;
+    left: 70px;
+    top: -250px;
+    animation: shine 4s ease-in-out infinite;
+  }
 
 .Ellipse-large {
     position: absolute;
@@ -117,7 +130,7 @@ body{
 }
 
 .section {
-    margin-top: 6%;
+    margin-top: 8%;
     text-align: center;
     animation: fadeInAnimation ease 1s forwards; 
 }
@@ -208,5 +221,16 @@ body{
     }
     to {
             transform: rotate(359deg);
+    }
+}
+
+@keyframes shine {
+    from {
+         top:300px;
+         left:120px;
+    }
+    to {
+        top:-250x;
+        left:0px;
     }
 }
