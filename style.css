@@ -72,21 +72,13 @@ body{
     height: 35%;
     bottom:5px;
     left:-1px;
-    /* left:18.70%;
-    top:65%; */
     
 }
-/*.rectangle {
-    position: absolute;
-    top:100px;
-    width: 175px;
-    left:280px;
-}*/
 
 .image {
     display: inline-block;
     position: relative;
-    margin-left:7rem;
+    margin-left:5rem;
     margin-top: 1.5rem;
 }
 
