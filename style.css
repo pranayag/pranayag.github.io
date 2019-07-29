@@ -25,7 +25,7 @@ body{
 
 .nav-link {
     display: block;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 170%;
     color: black;
     margin: 2.5rem 4rem;
@@ -50,12 +50,12 @@ body{
 }
 
 .name {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 340%;
 }
 
 .my-detail {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 170%;
     line-height: 1.5;
 }
@@ -113,7 +113,7 @@ body{
 .section-name {
     display: inline;
     font-size: 160%;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .line {
