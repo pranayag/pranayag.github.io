@@ -54,10 +54,10 @@ body {
 	box-sizing: border-box;
 	transform: translateX(-50%);
 	left: 50%;
-	top: 40% !important;
+	top: -11rem !important;
 	background: #E5E5E5;
-	width: 1920px;
-	height: 1080px;
+	width: 1900px;
+	height: 1050px;
 	background-color: rgba(255,255,255,1);
 	overflow: visible;
 	margin: 0;
