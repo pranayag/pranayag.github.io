@@ -102,6 +102,7 @@ body{
     z-index: 4;
     position: absolute;
     left:0px;
+    top: 0px;
 }
 
 .section {
