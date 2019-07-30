@@ -40,6 +40,11 @@ body {
 .active {
     text-decoration: stroke;
 }
+.DesignImg{
+	width:60%;
+	margin: auto !important;
+	display: block;
+}
 #Clock * {
 	margin: 0;
 	padding: 0;
