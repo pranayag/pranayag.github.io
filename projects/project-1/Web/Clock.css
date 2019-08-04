@@ -69,6 +69,10 @@ body {
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
+
+.active {
+    border-bottom: 2px solid;
+}
 .Line_106_Class {
 	opacity: 1;
 	fill: transparent;
