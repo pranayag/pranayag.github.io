@@ -40,6 +40,10 @@ body{
     border-bottom: 2px solid;
 }
 
+.nav-link:hover {
+	border-bottom: 2px solid;
+}
+
 .description {
     margin-top: 10rem;
     animation: fadeInAnimation ease 1s forwards; 

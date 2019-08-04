@@ -73,6 +73,9 @@ body {
 .active {
     border-bottom: 2px solid;
 }
+.nav-link:hover {
+	border-bottom: 2px solid;
+}
 .Line_106_Class {
 	opacity: 1;
 	fill: transparent;
