@@ -103,10 +103,10 @@ body {
 }
 .vertical-line {
 	display: inline-block;
-	height: 3rem;
+	height: auto;
 	width: 5px;
-	background-color: #26a28a;
-	margin-top: 3rem;
+	background-color: #84cabd;
+	margin-top: 3.5rem;
 }
 .vertical-text {
     display: inline-grid;
@@ -145,6 +145,7 @@ body {
 .text {
 	margin-left: 1.5rem;
 	font-family: Montserrat;
+	width: 100%;
 }
 .intro-head {
 	font-family: Montserrat;
@@ -158,6 +159,7 @@ body {
 }
 .intro-description {
 	margin-top: 1.5rem;
+	font-size: 1.1rem;
 }
 
 .question-image {
