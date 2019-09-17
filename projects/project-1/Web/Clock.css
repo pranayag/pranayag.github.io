@@ -171,7 +171,7 @@ body {
 
 .Hypothesis-image {
 	margin: 5rem auto;
-	width: fit-content;
+	width: max-content;
 }
 .Hypothesis-image1 {
 	margin: 0 9rem;
