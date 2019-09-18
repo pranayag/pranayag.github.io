@@ -94,6 +94,10 @@ body {
     width: 100%;
     z-index: -1;
 }
+.content{
+	width: 83%;
+    margin: auto;
+}
 .grid {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -139,7 +143,7 @@ body {
 }
 .intro {
 	display: inline-flex;
-	margin: 1rem 6.9rem;
+	margin: 2rem 6.9rem;
 	font-family: Montserrat;	
 }
 .text {
