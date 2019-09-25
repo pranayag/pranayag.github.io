@@ -110,7 +110,7 @@ body {
 	height: auto;
 	width: 5px;
 	background-color: #84cabd;
-	margin-top: 3.5rem;
+	margin-top: 4.5rem;
 }
 .vertical-text {
     display: inline-grid;
@@ -130,7 +130,7 @@ body {
 	color: #26a28a;
 }
 .vertical-description {
-	padding-top: 1.5rem;
+	padding-top: 2.7rem;
 	margin: 0 1.5rem;
 	font-family: Montserrat;
 	font-weight: bolder;
@@ -160,10 +160,13 @@ body {
 	letter-spacing: normal;
 	text-align: left;
 	color: #26a28a;
+	font-size: 1.5rem;
 }
 .intro-description {
 	margin-top: 1.5rem;
 	font-size: 1.1rem;
+	line-height: 2.6;
+    letter-spacing: 0.7spx;
 }
 
 .question-image {
@@ -176,14 +179,36 @@ body {
 .Hypothesis-image {
 	margin: 5rem auto;
 	width: max-content;
+	display: block;
 }
 .Hypothesis-image1 {
 	margin: 0 9rem;
 	height: 23rem;
+}
+.Hypothesis-image2 {
+	display: none;
+}
+@media only screen and (min-width: 960px) {
+	.Hypothesis-image2 {
+	  display: block;
+      margin: 1rem auto;
+	}
+	.Hypothesis-image1 {
+	  display: none;
+	}
+	.Hypothesis-image {
+		width: auto;
+	}
 }
 
 .refining-image {
 	display: grid;
     margin: 1rem 5rem;
     grid-template-columns: auto auto auto auto;
+}
+
+.gifs {
+	height: 20rem;
+    display: block;
+    margin: 1rem auto;
 }
