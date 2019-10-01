@@ -71,11 +71,13 @@ body{
 .UX {
     text-align: center;
     position:relative;
+    font-weight: 900;
 }
 
 .rectangle {
     position: absolute;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     width: 175px;
     height: 35%;
     bottom:5px;
