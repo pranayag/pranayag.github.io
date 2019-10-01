@@ -188,13 +188,13 @@ body {
 .Hypothesis-image2 {
 	display: none;
 }
-@media only screen and (min-width: 960px) {
+@media (max-width: 960px) {
 	.Hypothesis-image2 {
 	  display: block;
       margin: 1rem auto;
 	}
 	.Hypothesis-image1 {
-	  display: none;
+	  	display: none;
 	}
 	.Hypothesis-image {
 		width: auto;
