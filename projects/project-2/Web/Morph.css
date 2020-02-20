@@ -41,3 +41,22 @@ body {
     text-decoration: stroke;
     border-bottom: 2px solid;
 }
+
+.main {
+    margin-top: 10rem;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.image {
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
