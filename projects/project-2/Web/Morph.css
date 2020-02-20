@@ -47,16 +47,30 @@ body {
 }
 
 .text {
-    display: block;
+    display: inline-block;
     text-align: center;
     font-size: 4rem;
 }
 
 .image {
-    width: 800px;
-    height: 500px;
+    width: 75%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.line1 {
+    height: 0.4rem;
+    width: 10rem;
+    display: inline-block;
+    margin: 1rem 1rem;
+    border-radius: 0 1rem 0 1rem;
 }
