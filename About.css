@@ -32,8 +32,16 @@ body{
     text-decoration: none;
 }
 
+.nav-link:hover {
+	border-bottom: 2px solid;
+}
+
 .active {
     text-decoration: stroke;
+}
+
+.active {
+    border-bottom: 2px solid;
 }
 
 .about {
