@@ -45,7 +45,7 @@ body{
 }
 
 .description {
-    margin-top: 10rem;
+    margin-top: 10%;
     animation: fadeInAnimation ease 1s forwards; 
 }
 
@@ -88,16 +88,18 @@ body{
 .image {
     display: inline-block;
     position: relative;
+    width: 20%;
     margin-left:5rem;
     margin-top: 1.5rem;
 }
 
 .image-main img {
-    width: 400px;
+    width: 140%;
 }
 
 .ill {
     z-index: 1;
+    /* padding-left: 20%; */
 }
 
 .shine {
@@ -105,7 +107,7 @@ body{
     position: absolute;
     left: 70px;
     top: -250px;
-    animation: shine 4s ease-in-out infinite;
+    animation: shine 3s ease-in-out infinite;
   }
 
 .shadow {
@@ -139,12 +141,12 @@ body{
 
 .project-1 {
     margin-top:3%;
-    width:35%;
+    width:90%;
     margin-bottom: 3rem;
     margin-left: 13%;
-    display: inline-block;
+    display: block;
     margin: 0 5rem;
-    /* margin-right: auto; */
+    margin: auto;
 }
 
 .clock-image:hover {
@@ -240,7 +242,7 @@ body{
     filter: blur(1px);
 }
 
-@media (max-width: 1117px){
+@media (max-width: 1117px) {
     .description {
         display: flex;
         flex-flow: column;
@@ -249,16 +251,47 @@ body{
         order: 2;
         margin: auto;
     }
+    .name {
+        font-size: 450%;
+        display: inline-block;
+        width: max-content;
+        margin: auto;
+        margin-left: -20%;
+        margin-top: 40%;
+    }
+    .my-detail {
+        font-size: 260%;
+        width: max-content;
+        margin-left: -34%;
+        text-align: center;
+        margin-top: 15%;
+    }
     .image {
         order: 1;
-        width: 450px;
         margin: auto;
     }
     .image-main img {
-        width: 400px;
-        height:400px;
+        width: 270%;
+        margin-left: -78%;
+        margin-top: 50%;
     }
-   
+    .ill {
+        z-index: 1;
+        margin: auto;
+        margin-left: -12%;
+    }
+    .shadow {
+        z-index: 4;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin-left: -12%;
+    }
+   .project-1 {
+        width: 90%;
+        margin: auto;
+        padding: 2%;
+   }
 }
 
 @keyframes fadeInAnimation { 
@@ -274,11 +307,11 @@ body{
 
 @keyframes shine {
     from {
-         top:300px;
+         top:70%;
          left:120px;
     }
     to {
         top:-250x;
-        left:0px;
+        left:-10px;
     }
 }
