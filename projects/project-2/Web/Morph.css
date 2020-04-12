@@ -8,6 +8,18 @@ body {
 	font-stretch: normal;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    border-radius:5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #0b1930;
+    border-radius: 10px;
+  }
+
 .nav {
     display: -ms-flexbox;
     display: flex;

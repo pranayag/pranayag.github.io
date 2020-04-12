@@ -115,7 +115,13 @@ body {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
-.grid-content {
+.grid-content-1 {
+	margin: 2rem 7rem;
+}
+.grid-content-1 {
+	margin: 2rem 7rem;
+}
+.grid-content-1 {
 	margin: 2rem 7rem;
 }
 .vertical-line {
