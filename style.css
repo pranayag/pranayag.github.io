@@ -68,10 +68,21 @@ body{
     float: left;
     z-index: 3;
 }
-
+.highlight {
+    position: absolute;
+    z-index:-999;
+    width: 135%;
+    margin-left: -20%;
+    margin-top:-1%;
+    
+}
 .name {
+    position: relative;
+    display: inline-block;
     font-weight: bold;
     font-size: 340%;
+    /* color: #ffffff; */
+    text-align: bottom;
 }
 
 .my-detail {

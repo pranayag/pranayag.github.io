@@ -7,18 +7,9 @@ body {
 	font-style: normal;
 	font-stretch: normal;
 }
-
-::-webkit-scrollbar {
-    width: 10px;
-  }
-::-webkit-scrollbar-track {
-    border-radius:5px;
-  }
-  
-::-webkit-scrollbar-thumb {
-    background: #0b1930;
-    border-radius: 10px;
-  }
+:root {
+	--web-view-ids: Clock;
+}
 
 .nav {
     display: -ms-flexbox;
@@ -49,27 +40,22 @@ body {
     text-decoration: none;
 }
 
-.nav-link:hover {
-	border-bottom: 2px solid;
-}
-
 .active {
     text-decoration: stroke;
-    border-bottom: 2px solid;
 }
-
 .main {
     margin-top: 15rem;
 }
 
 .intro{
-    margin-bottom: 3%;
+    margin-bottom: 6%;
 }
 .text-main {
     /* margin-top: 2%; */
     display: inherit;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 99%;
 }
 .text {
     display: inline-block;
@@ -78,7 +64,7 @@ body {
 }
 
 .image {
-    width: 75%;
+    width: 91%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
