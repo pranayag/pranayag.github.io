@@ -2,6 +2,18 @@ body{
     font-family: Montserrat;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    border-radius:5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #3ec5e8;
+    border-radius: 10px;
+  }
+
 .nav {
     display: -ms-flexbox;
     display: flex;
@@ -139,7 +151,17 @@ body{
 }
 
 
-.project-1 {
+.project-big {
+    margin-top:3%;
+    width:90%;
+    margin-bottom: 3rem;
+    margin-left: 13%;
+    display: block;
+    margin: 0 5rem;
+    margin: auto;
+}
+
+.project-small {
     margin-top:3%;
     width:90%;
     margin-bottom: 3rem;
@@ -242,6 +264,22 @@ body{
     filter: blur(1px);
 }
 
+@media (min-width: 1117px) {
+    .project-big {
+        display: block !important;
+         width: 90%;
+         margin: auto;
+         padding: 2%;
+     }
+     .project-small {
+         display: none !important;
+         width: 90%;
+         margin: auto;
+         padding: 2%;
+     }
+
+}
+
 @media (max-width: 1117px) {
     .description {
         display: flex;
@@ -287,11 +325,18 @@ body{
         top: 0px;
         margin-left: -12%;
     }
-   .project-1 {
+   .project-big {
+       display: none !important;
         width: 90%;
         margin: auto;
         padding: 2%;
-   }
+    }
+    .project-small {
+        display: block !important;
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+    }
 }
 
 @keyframes fadeInAnimation { 
