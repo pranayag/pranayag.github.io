@@ -53,11 +53,13 @@ body {
 .active {
     text-decoration: stroke;
 }
+
 .DesignImg{
 	width:60%;
 	margin: auto !important;
 	display: block;
 }
+
 #Clock * {
 	margin: 0;
 	padding: 0;
@@ -105,6 +107,7 @@ body {
     z-index: -1;
 }
 .content{
+	/* display: inline-block; */
 	width: 83%;
     margin: auto;
 }
@@ -198,18 +201,6 @@ body {
 .Hypothesis-image2 {
 	display: none;
 }
-@media (max-width: 960px) {
-	.Hypothesis-image2 {
-	  display: block;
-      margin: 1rem auto;
-	}
-	.Hypothesis-image1 {
-	  	display: none;
-	}
-	.Hypothesis-image {
-		width: auto;
-	}
-}
 
 .refining-image {
 	display: grid;
@@ -222,3 +213,22 @@ body {
     display: block;
     margin: 1rem auto;
 }
+
+@media (max-width: 800px) {
+	.content{
+		width: 100% !important;
+	}
+	.Hypothesis-image2 {
+	  display: block;
+      margin: 1rem auto;
+	}
+	.Hypothesis-image1 {
+	  	display: none;
+	}
+	.Hypothesis-image {
+		width: auto;
+	}
+	
+}
+
+
