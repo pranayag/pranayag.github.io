@@ -46,7 +46,7 @@ body{
 
 .active {
     text-decoration: stroke;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid;
 }
 
 .nav-link:hover {
