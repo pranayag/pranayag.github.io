@@ -64,7 +64,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.Clock_Class {
+/* .Clock_Class {
 	position: absolute;
 	box-sizing: border-box;
 	transform: translateX(-50%);
@@ -82,7 +82,7 @@ body {
 	--web-scale-to-fit: true;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
-}
+} */
 
 .active {
     border-bottom: 2px solid;
