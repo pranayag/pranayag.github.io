@@ -138,6 +138,38 @@ body{
     text-align: center;
 }
 
+.fab, .fas{
+    padding: 0px;
+    font-size: 40px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: lightslategray;
+    transition: 0.25s;
+  }
+  
+  /* Add a hover effect if you want */
+  /* .fab:hover, .fas:hover {
+    opacity: 0.7;
+  } */
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.fa-medium:hover{
+    color: black;
+}
+.fa-facebook:hover{
+    color:#4267B2;
+}
+.fa-instagram-square:hover{
+    color:#C13584;
+}
+.fa-envelope:hover{
+    color:#DB4437;
+}
+
 @keyframes fadeInAnimation { 
     0% { 
         opacity: 0; 
