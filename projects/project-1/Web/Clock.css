@@ -170,7 +170,7 @@ body {
 .intro:hover  .vertical-line{
 	display: inline-block;
 	/* height: auto; */
-	width: 50px;
+	width: 20px;
 	background-color: #84cabd;
 	margin-top: 4.5rem;
 }
