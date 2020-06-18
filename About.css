@@ -72,14 +72,19 @@ body{
 }
 
 .image{
-    margin-left: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
+
 .face {
-    display: inline-block;
-    position: absolute;
-    margin-left: 3%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
     z-index: 5;
 }
 
@@ -102,13 +107,16 @@ body{
 }
 
 .description {
-    font-weight: 500;
-	display: inline-block;
-	width: 35%;
-	position: absolute;
-    font-size: 2rem;
-    margin-left: 52%;
-    top:17.5%;
+    /* font-weight: 100; */
+	display: block;
+	width: 45%;
+	/* position: absolute; */
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    /* top:17.5%; */
 }
 
 @media only screen and (max-width: 980px) {

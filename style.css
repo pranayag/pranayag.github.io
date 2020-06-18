@@ -208,9 +208,10 @@ body{
 
 .clock-image:hover {
     /* padding: 7px; */
-    padding: 0 0px 10px 0;
-    background-color: rgb(39,164,142,0.7);
-    transform: scale(1.01);
+    padding: 10px 0px 10px 0;
+    background-color: rgba(58, 202, 238, 0.829);
+    /* transform: scale(1.01); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(60, 157, 221, 0.19); */
     /* width:101%;
     height:101%; */
 }
@@ -218,7 +219,7 @@ body{
 .clock-image {
     width:100%;
     height:100%;
-    border-radius: 27px;
+    border-radius: 38px;
     transition: all .2s ease-in-out;
 }
 
