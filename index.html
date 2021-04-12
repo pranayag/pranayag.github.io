@@ -4,9 +4,10 @@
 <head>
     <title>Pranay Agarwal</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="icon" href="assets/favicon-05.png" type="image/png" sizes="16x16">
+    <!-- <link rel="icon" href="assets/favicon-05.png" type="image/png" sizes="16x16"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164699989-1"></script>
     <script>
@@ -17,14 +18,14 @@
     </script>
     <script src="index.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 
 <body >
+
     <header class="header">
+        <img id="Logo" src="./assets/Logo.png"> 
         <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#preview">Projects</a>
             </li>
@@ -32,70 +33,66 @@
                 <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/1L-VpXOsPoTX0qRO88rsEIh2KRJSSo2IO/view?usp=sharing">Resume</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./About.html">About</a>
+                <a class="nav-link" href="#preview1">About</a>
             </li>
         </ul>
     </header>
 
-    <!-- <div id="loader"></div> -->
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <div id="topbackground"></div>
-        <img id="Upimage" src="./assets/arrow-01.png">
-    </button>
-
-    <div id="show" >
-    <div class="description" >
-        <div class="home">
-            <div class="intro">
-                
-                <p class="name">
-                    <!-- <img class="highlight" src="./assets/Highlight.svg" />  -->
-                    Hi! I’m Pranay
-                </p>
-                <p class="my-detail">
-                    A<span class="UX"> UI/UX Designer<img class="rectangle" src="./assets/Rectangle 6.png " /></span> <br>currently interning at Hamramp Studio</p>
-                </p>
-            </div>
+    <div class="home">
+        <div class="main_img">
+            <img class="avatar" src="./assets/Main_Image.png">
         </div>
-
-        <div class="image">
-            <div class="image-main">
-                <img class="ill" src="./assets/final-ill-05.png" />
-                <img style="width: 390px;" class="shine" src="assets/shine-06.png" />
-                <img class="shadow" src="./assets/shadow-07.png" />
-            </div>
+        <div class="intro">
+            <p class="name">
+                I’m Pranay, a Product Designer,<br>currently interning at <a style="color: white;" href="https://hapramp.com/">Hapramp Studio</a>
+            </p>
         </div>
     </div>
+
+    <div class="tag">
+        <div class="section_name">
+            <img class="line_left" src="./assets/Line.svg">
+            <p class="section_text">PROJECTS</p>
+            <img class="line_right" src="./assets/Line1.svg">
+        </div>
+    </div>
+    
 
     <div class="section" id="preview">
-        <a class="project-link" href="./projects/project-1/Web/Clock.html">
-            <div class="project-big">
-                <img class="clock-image" src="projects/project-1/Project-1-01.png" />
-            </div>
-            <div class="project-small">
-                <img class="clock-image" src="projects/project-1/Project-1-Square-02.png" />
-            </div>
-        </a>
-        <a class="project-link" href="./projects/project-2/Web/Morph.html">
-            <div class="project-big">
-                <img class="clock-image" src="projects/project-2/project-2-01-01.png" />
-            </div>
-            <div class="project-small">
-                <img class="clock-image" src="projects/project-2/project-2-01-Square.png" />
-            </div>
-        </a>
-        <a class="project-link" href="./projects/project-3/Lister.html">
-            <div class="project-big">
-                <img class="clock-image" src="projects/project-3/project-3-01.png" />
-            </div>
-            <div class="project-small">
-                <img class="clock-image" src="projects/project-3/project-3-Square-03.png" />
-            </div>
-        </a>
-    </div>
+            <img class="project-image project-1" src="./assets/Project-1.png" />
+            <img class="project-image project-2" src="./assets/Project-2.png" />
+            <img class="project-image project-3" src="./assets/Project-3.png" />
+            <img class="project-image project-4" src="./assets/Project-4.png" />
     </div>
 
+    <div class="tag" id="preview1">
+        <div class="section_name">
+            <img class="line_left" src="./assets/Line.svg">
+            <p class="section_text">ABOUT</p>
+            <img class="line_right" src="./assets/Line1.svg">
+        </div>
+    </div>
+
+    <div class=about>
+        <p class="about_text">
+            I'm currently a final year B.Tech. undergrad at IIIT Vadodara.<br><br>
+            I was born and raised in India and have special bond towards technical stuff. I enjoy designing things and the very idea of creating impactful pieces for a digital medium really inspires me. My computer science knowledge helps me in establishing my design theories with a clearer and broader perspective, which in turn also helps me in implementing those theories in real life<br><br>
+            Apart from that I love watching anime and suspense thrillers and enjoys travelling to different places.
+        </p>
+    </div>
+
+    <div class="connect">
+        <a href="https://twitter.com/py_agarwal" class="fab fa-twitter" ></a>
+        <a href="https://medium.com/@agarwalpranay76161" class="fab fa-medium-m"></a>
+        <a href="mailto:agarwalpranay76161@gmail.com" class="fas fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/py-ag/" class="fab fa-linkedin-in" ></a>
+    </div>
+
+    <footer class="footer">
+        <p class="footer_text">
+            Designed & &lt; / &gt; by Pranay
+        </p>
+    </footer>
 </body>
 
 </html>

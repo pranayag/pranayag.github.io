@@ -34,14 +34,3 @@ function topFunction() {
   body.stop().animate({ scrollTop: 0 }, 500);
 }
 
-// var myVar;
-
-// function myFunction() {
-//   myVar = setTimeout(showPage, 2000);
-// }
-
-// function showPage() {
-//   document.getElementById("loader").style.display = "none";
-//   document.getElementById("show").style.display = "block";
-// }
-
