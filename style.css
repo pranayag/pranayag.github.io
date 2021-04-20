@@ -172,19 +172,22 @@ body{
     transform: translateY(-8px);
     transition: ease-in-out 0.2s;
 }
-
   
-  /* Create four equal columns that sits next to each other */
-
+  .links {
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+  }
   .project-image {
-    width: 80%;
+    width: 85%;
     transform: translateY(8px);
     transition: ease-in-out 0.35s;
     margin-bottom: 80px;
     margin-top: 32px;
     padding: auto 2px;
   }
-  
+
+ 
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
