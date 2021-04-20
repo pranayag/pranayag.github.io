@@ -6,7 +6,7 @@ $(document).ready(function () {
       $('html, body').animate({
         scrollTop: $(hash).offset().top-100
       }, 800, function () {
-        window.location.hash = hash-100;
+        hash
       });
     }
   });
