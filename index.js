@@ -18,19 +18,3 @@ $(document).ready(function () {
     $(this).addClass("active");
   });
 });
-
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-function topFunction() {
-  var body = $("html, body");
-  body.stop().animate({ scrollTop: 0 }, 500);
-}
-
