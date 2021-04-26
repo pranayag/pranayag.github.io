@@ -116,6 +116,10 @@ body{
     text-align: center;
 }
 
+#preview1{
+    margin-top: 32px;
+}
+
 .section_name{
     text-align: center;
     display: inline-flex;
