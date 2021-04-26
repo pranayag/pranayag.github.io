@@ -2,6 +2,7 @@ body{
     font-family: Montserrat;
     background-color: #121212;
     color: white;
+    margin-top: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -16,10 +17,24 @@ body{
     border-radius: 10px;
   }
 
-.header {
-    margin-top: 64px;
+#header {
+    /* margin-top: 0; */
     /* position: relative; */
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height:124px;
+    background-color: #121212;
+    z-index: 100;
+    /* display: inline-flexbox; */
+    -webkit-transition: transform 0.8s ease !important;
+    transition : transform 0.8s ease !important;
+}
+
+.headerup {
+	transform: translateY(-120px);
 }
 
 #Logo {
@@ -51,23 +66,26 @@ body{
     color: white;
     margin: 0 24px;
     text-decoration: none;
+    height: 24px;
 }
 
 .active {
-    text-decoration: stroke;
+    /* text-decoration: stroke; */
     border-bottom: 2px solid;
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid;
+    color: rgb(192, 192, 192);
     transition: ease-in-out 0.075s;
 }
 
 .home {
-    width: 100%;
-    float: left;
-    z-index: 3;
-    padding-top: 64px;
+    /* margin-top: 144px; */
+    /* width: 100%; */
+    /* float: left; */
+    /* z-index: 3; */
+    padding-top: 20vh;
+    position: relative;
     height: 70vh;
     justify-content: center;
 }
@@ -91,7 +109,7 @@ body{
     font-size: 180%;
     width: 50%;
     text-align: bottom;
-    line-height: 150%;
+    line-height: 185%;
 }
 
 .tag {
@@ -129,10 +147,6 @@ body{
      justify-items: center;
      /* column-gap: 32px; */
 
-}
-
-.tag{
-    margin-top: 64px;
 }
 
 .about {
