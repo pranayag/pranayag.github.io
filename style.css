@@ -31,6 +31,7 @@ body{
     /* display: inline-flexbox; */
     -webkit-transition: transform 0.8s ease !important;
     transition : transform 0.8s ease !important;
+    max-width: 1920px;
 }
 
 .headerup {
@@ -362,7 +363,7 @@ body{
         height: 50vh;
     }
     .avatar{
-        width: 35vw;
+        width: 25vw;
     }
     .name{
         width: 70%;
@@ -372,6 +373,7 @@ body{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         padding: 0 32px;
+        max-width: 800px;
     }
     .section_name{
         margin-top: 88px;
