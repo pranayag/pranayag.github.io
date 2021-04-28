@@ -252,6 +252,12 @@ body{
 .fa-envelope:hover{
     color:#DB4437;
 }
+.fa-behance:hover{
+    color:#0057ff;
+}
+.fa-dribbble:hover{
+    color:#ea4c89;
+}
 
 .footer {
     margin-top: 104px;
@@ -282,25 +288,39 @@ body{
 } */
 
 @media only screen and (max-width: 767px) {
-    .header{
+    #header{
         /* position: absolute; */
         /* align-items: center; */
         text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: 24px;
+        width: 100vw;
+        padding-top: 24px;
     }
+
     #Logo {
         margin: auto;
-        width: 30%;
+        width: 25%;
+
     }
     .nav{
-        /* flex-wrap: nowrap; */
-        text-align: center;
-        margin: auto;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: center;
         float: left !important;
-        padding-left: 0px;
+        margin-right: auto !important;
+        margin-top: 32px;
+        left: -4px !important;
+
     }
+    /* .ul{
+        padding-left: 0px !important;
+    } */
     .nav-link{
         font-size: 14px;
         margin: 0 24px;
+        padding-left: 0px;
     }
     .home{
         height: 64vh;
@@ -340,6 +360,7 @@ body{
     }
     .fab, .fas{
         font-size: 16px;
+        margin: 16px;
     }
     .footer{
         margin-top: 80px;
