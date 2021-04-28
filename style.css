@@ -97,6 +97,7 @@ body{
 
 .avatar{
     width: 18vw;
+    margin-left: -16px;
 }
 
 .intro {
