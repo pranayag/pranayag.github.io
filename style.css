@@ -394,6 +394,7 @@ body{
     .name{
         font-size: 200%;
         width: 95%;
+        margin-top: 8px;
     }
     .section{
         padding: 0 48px;
