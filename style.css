@@ -386,7 +386,7 @@ body{
 
 @media only screen and (min-width: 1025px) and (max-width:1440px) {
     .home{
-        height: 60vh;
+        height: 70vh;
     }
     .avatar{
         width: 22vw;
