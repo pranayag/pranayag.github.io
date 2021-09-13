@@ -193,6 +193,19 @@ body{
     transition: ease-in-out 0.2s;
 }
   
+.project-5:hover{
+    filter: drop-shadow(0px 20px 50px rgba(253, 40, 232, 0.2));
+    transform: translateY(-8px);
+    transition: ease-in-out 0.2s;
+}
+
+.project-6:hover{
+    filter: drop-shadow(0px 20px 50px rgba(255, 204, 25, 0.2));
+    transform: translateY(-8px);
+    transition: ease-in-out 0.2s;
+}
+
+
 .links {
       text-align: center;
 }
@@ -305,7 +318,7 @@ body{
     } */
     .nav-link{
         font-size: 14px;
-        margin: 0 24px;
+        margin: 0 16px;
         padding-left: 0px;
     }
     .home{
