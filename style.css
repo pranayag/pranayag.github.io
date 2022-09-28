@@ -85,7 +85,7 @@ body{
     /* width: 100%; */
     /* float: left; */
     /* z-index: 3; */
-    padding-top: 20vh;
+    padding-top: 24vh;
     position: relative;
     height: 70vh;
     justify-content: center;
@@ -96,7 +96,7 @@ body{
 }
 
 .avatar{
-    width: 18vw;
+    width: 16vw;
     margin-left: -16px;
 }
 
@@ -108,7 +108,7 @@ body{
     position: relative;
     display: inline-block;
     font-weight: bold;
-    font-size: 180%;
+    font-size: 160%;
     width: 50%;
     text-align: bottom;
     line-height: 185%;
@@ -163,7 +163,7 @@ body{
 }
 
 .about_text {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%;
     font-weight: normal;
 }
